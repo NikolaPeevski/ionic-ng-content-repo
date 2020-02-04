@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <!-- Left Buttons -->
+    <ion-buttons slot="start">
+      <ion-back-button
+        [text]="backText || 'Back'"
+        routerDirection="back">
+      </ion-back-button>
+      <ng-content select="[left-buttons]"></ng-content>
+    </ion-buttons>
+
+    <ion-title>
+        {{titleText}}
+    </ion-title>
+
+    <!-- Right Buttons -->
+    <ion-buttons slot="end">
+      <ng-content select="[right-buttons]"></ng-content>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
