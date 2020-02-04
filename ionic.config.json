@@ -1,0 +1,7 @@
+{
+  "name": "ionic-ng-content-repo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
